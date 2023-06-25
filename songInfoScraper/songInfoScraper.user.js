@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AMQ Anime And Song Info Outputter
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Prints anime info to console.
 // @author       Lamphobic
 // @match        https://animemusicquiz.com/*
@@ -78,28 +78,7 @@ function onQuizReady(data) {
       altAnimeNames,
       altAnimeNamesAnswers
     );
-    console.log("Song name: ", songName);
-    console.log("Song name: ", artist);
-    console.log("Song name: ", type);
-    console.log("Song name: ", typeNumber);
-    console.log("Song name: ", urls);
-    console.log("Song name: ", siteIds);
-    console.log("Song name: ", vintage);
-    console.log("Song name: ", animeDifficulty);
-    console.log("Song name: ", altAnimeNames);
-    console.log("Song name: ", altAnimeNamesAnswers);
-    console.log(
-      songName,
-      artist,
-      type,
-      typeNumber,
-      urls,
-      siteIds,
-      vintage,
-      animeDifficulty,
-      altAnimeNames,
-      altAnimeNamesAnswers
-    );
+    
     let diffString = typeof animeDifficulty === "number" ? Math.round(animeDifficulty) : animeDifficulty;
     this.$extraAnimeContent = $(
       format(
