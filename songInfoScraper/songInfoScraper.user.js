@@ -5,6 +5,8 @@
 // @description  Prints Anime info to console.
 // @author       Lamphobic
 // @match        https://animemusicquiz.com/*
+// @downloadURL  https://github.com/Lamphobic/AMQ-Practice-Tool/raw/main/songInfoScraper/songInfoScraper.user.js
+// @updateURL    https://github.com/Lamphobic/AMQ-Practice-Tool/raw/main/songInfoScraper/songInfoScraper.user.js
 // @grant        none
 // ==/UserScript==
 
