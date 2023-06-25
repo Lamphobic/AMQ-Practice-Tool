@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         AMQ Anime And Song Info Outputter
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Prints Anime info to console.
+// @version      0.2
+// @description  Prints anime info to console.
 // @author       Lamphobic
 // @match        https://animemusicquiz.com/*
 // @downloadURL  https://github.com/Lamphobic/AMQ-Practice-Tool/raw/main/songInfoScraper/songInfoScraper.user.js
@@ -37,15 +37,15 @@ function songOutput(
     altAnimeNames,
     altAnimeNamesAnswers) {
   console.log("Song name: ", songName);
-  console.log("Song name: ", artist);
-  console.log("Song name: ", type);
-  console.log("Song name: ", typeNumber);
-  console.log("Song name: ", urls);
-  console.log("Song name: ", siteIds);
-  console.log("Song name: ", vintage);
-  console.log("Song name: ", animeDifficulty);
-  console.log("Song name: ", altAnimeNames);
-  console.log("Song name: ", altAnimeNamesAnswers);
+  console.log("Artist: ", artist);
+  console.log("Type: ", type);
+  console.log("Number: ", typeNumber);
+  console.log("Links: ", urls);
+  console.log("Ids: ", siteIds);
+  console.log("Year/Season: ", vintage);
+  console.log("Song Difficulty: ", animeDifficulty);
+  console.log("Alt Names: ", altAnimeNames);
+  console.log("Alt Name Answers: ", altAnimeNamesAnswers);
 }
 
 function onQuizReady(data) {
