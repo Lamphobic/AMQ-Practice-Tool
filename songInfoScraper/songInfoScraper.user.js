@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AMQ Anime And Song Info Outputter
 // @namespace   https://github.com/Lamphobic/AMQ-Practice-Tool/raw/main/songInfoScraper/
-// @version      0.3
+// @version      0.4
 // @description  Prints anime info to console.
 // @author       Lamphobic
 // @match        https://animemusicquiz.com/*
