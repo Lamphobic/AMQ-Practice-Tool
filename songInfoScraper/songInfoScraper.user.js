@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         AMQ Anime And Song Info Outputter
-// @namespace    http://tampermonkey.net/
+// @namespace   https://github.com/Lamphobic/AMQ-Practice-Tool/raw/main/songInfoScraper/
 // @version      0.3
 // @description  Prints anime info to console.
 // @author       Lamphobic
